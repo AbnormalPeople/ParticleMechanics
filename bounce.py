@@ -1,4 +1,4 @@
-#!/Users/alexandre/opt/anaconda3/envs/Coding/bin/python
+#!env python
 
 from Vector import *
 

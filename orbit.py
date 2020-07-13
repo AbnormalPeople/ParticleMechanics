@@ -1,10 +1,13 @@
 #!env python
+"""
+Simulates a 2 body system with one of the 2 bodies being fixed.
 
-from Vector import *
+This is a precursor to a Newtonian 2-body, gravity driven problem.
+The acceleration orientation changes over time but its value (norm) remains fixed at 9.81m/s2 (earth like).
+"""
 
 import pygame
-from pygame.locals import *
-
+from Vector import Vector2D
 
 #Colors
 GRAY = (127, 127, 127)

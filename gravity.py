@@ -1,4 +1,22 @@
 #!env python
+"""
+Simulates a sun-earth system.
+
+Newton's law of motion are simulated and the force (hence the acceleration)
+between the earth and the sun is computed at each step.
+
+In this system, we assume the Sun to be immobile as its mass is much greater than the earth.
+We could factor in Earth's pull on the Sun and see a wobble. Maybe.
+
+The physical constants are accurate:
+. sun mass
+. earth mass
+. gravitational constant
+
+The initial conditions are set such that
+. the Earth is at one AU from the Sun
+. the Earth velocity is 30km/s perpendicular to the Sun-Earth vector
+"""
 
 import pygame
 from Vector import Vector2D
